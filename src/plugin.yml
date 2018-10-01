@@ -1,0 +1,26 @@
+name: BlocksAreBetter
+main: Main.Main
+version: 2.1.2
+author: Imhandmade
+commands:
+    blocks:
+        usage:
+        description: Turn all the ores into blocks.
+        permission: bab.blocks
+    trash:
+        usage:
+        description: Toss useless items into this chest.
+        permission: bab.trash
+permissions:
+  bab.*:
+    description: Access to all commands
+    default: op
+    children:
+      bab.blocks: true
+      bab.trash: true
+  bab.blocks:
+    description: Access to only /blocks.
+    default: op
+  bab.trash:
+    description: Access to only /trash.
+    default: op
