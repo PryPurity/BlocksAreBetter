@@ -1,6 +1,7 @@
 name: BlocksAreBetter
 main: Main.Main
-version: 2.1.2
+version: 2.1.4
+api-version: 1.13
 author: Imhandmade
 commands:
     blocks:
