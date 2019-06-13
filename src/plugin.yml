@@ -18,6 +18,7 @@ permissions:
     default: op
     children:
       bab.blocks: true
+      bab.blocks.emerald: true
       bab.trash: true
   bab.blocks:
     description: Access to only /blocks.
